@@ -5,7 +5,7 @@ fn main() {
     let t: f64 = 3.0;
 
     //Write all equations/functions that will be used
-    let a = p*(1.0-(r/100.0).powf(t));
+    let a = p*(1.0-(r/100.0)).powf(t);
     println!("The price of the TV has reduced to {}₦ over 3 years.", a);
 
     let d = p-a;
