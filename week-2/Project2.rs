@@ -9,23 +9,23 @@ fn main() {
    
     //list out all equations
     let s = t + m + h + d + a;
-    println("Sum of all amounts is {}",s);
+    println!("Sum of all amounts is {}",s);
    //s = sum of all amounts
     let a = s/n;
-    println("Average of total sum is {}",a);
+    println!("Average of total sum is {}",a);
    //a =average of total sum 
 
    //Average of individual variables sepertely
    let am = m/(2.0);
-   println("Average of m is {}", am);
+   println!("Average of m is {}", am);
    let ah = h/3.0;
-   println("Average of h is {}", ah);
+   println!("Average of h is {}", ah);
    let ad = d/3.0;
-   println("Average of d is {}", ad);
+   println!("Average of d is {}", ad);
    let aa = a/(1.0);
-   println("Average of a is {}", aa);
-   let at = a/(1.0)
-   println("Average of t is {}", at);
+   println!("Average of a is {}", aa);
+   let at = a/(1.0);
+   println!("Average of t is {}", at);
 
 
 }
