@@ -6,7 +6,7 @@ fn main() {
 
     Let a = p * (1.0 + (r/100)^ y);
     println!("Amount is {}", a);
-    Let ci = a - p
+    Let ci = a - p;
     println!("Compound Intrest is {}", ci);
 
 
