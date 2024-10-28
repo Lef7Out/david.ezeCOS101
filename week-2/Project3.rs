@@ -10,5 +10,6 @@ fn main() {
 
     let d = p-a;
     println!("The price of the TV reduced by {:.2}₦",d);
+    //Assignment completed successfully
 
 }
