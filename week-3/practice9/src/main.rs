@@ -3,6 +3,6 @@ fn main() {
     println!("Fees is {}", fees);
 
     fees = 35_000;
-    println!("Fees changed is {}", fees);
+    println!("Fees changed is {}", fees); //mutabale error gone
 
 }
