@@ -1,21 +1,12 @@
-    fn main() {
-        let a:i32 = 2;
-        let b:i32 = 3;
-        
-        let mut result:i32;
+fn main() {
+    let name = "Aisha Lawal";
+    let uni:&str = "Pan-Atlantic University";
+    let addr:&str = "Km 52 Lekki-Epe Expressway, Ibeju-Lekki, Lagos";
+    println!("Name: {}", name);
+    println!("University: {}, \nAddress: {}",uni, addr);
 
-        result = a & b;
-        println!("(a & b) => {} ",result);
-        result = a | b;
-        println!("(a | b) => {} ",result) ;
-        result = a ^ b;
-        println!("(a ^ b) => {} ",result);
-        result = !b;
-        println!("(!b) => {} ",result);
+    let department:&'static str = "Computer Science";
+    let school:&'static str = "School of Science and Technology";
+    println!("Department: {}, \nSchool: {}",department,school);
 
-        result = a << b;
-        println!("(a << b) => {}",result);
-
-        result = a >> b;
-        println!("(a>> b) =>{}",result);
-        }
+}
